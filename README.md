@@ -59,7 +59,6 @@ webapp/
 
 ### **1. Clone the repository**
 
-```bash
 git clone https://github.com/Eva544/NoteFlow.git
 cd webapp
 
