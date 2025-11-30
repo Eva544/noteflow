@@ -35,6 +35,44 @@ A modern **full-stack note-taking application** built with **MERN** (MongoDB, Ex
 
 ---
 
+## **Folder Structure**
+
+webapp/
+│
+├── backend/
+│   ├── src/
+│   │   ├── controllers/        # Functions handling API logic
+│   │   ├── middlewares/        # Auth, validation, etc.
+│   │   ├── models/             # Mongoose schemas
+│   │   ├── routes/             # API route definitions
+│   │   └── util/               # Helper functions
+│   │
+│   ├── index.js                # Backend entry point
+│   ├── package.json            # Backend dependencies & scripts
+│   ├── package-lock.json
+│   ├── .env                    # Environment variables (ignored)
+│   └── .gitignore              # Backend-specific ignores
+│
+│
+├── frontend/
+│   ├── public/                 # Static assets (index.html etc.)
+│   ├── src/
+│   │   ├── components/         # Reusable UI components
+│   │   ├── pages/              # Screens & page components
+│   │   ├── App.js              # Main React component
+│   │   ├── Dashboard.js        # Dashboard page
+│   │   ├── UserContext.js      # Global context/state
+│   │   ├── index.js            # React entry point
+│   │   └── index.css           # Global styles
+│   │
+│   ├── package.json            # Frontend dependencies & scripts
+│   ├── package-lock.json
+│   └── .gitignore              # Frontend-specific ignores
+│
+└── README.md                   # Project documentation
+
+---
+
 ## **Setup & Installation**
 
 ### **1. Clone the repository**
