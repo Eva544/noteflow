@@ -70,8 +70,10 @@ cd NoteFlow
 
 ### **2. Setup Backend**
 
+```bash
 cd backend
 npm install
+```
 
 - Create a .env file in backend
 ```bash
@@ -81,9 +83,11 @@ JWT_SECRET=<your-secret-key>
 ```
 
 - Start backend server:
+  ```bash
 npm run dev
+```
 
-3. Setup Frontend
+### **3. Setup Frontend**
 
 ```bash
 cd frontend
