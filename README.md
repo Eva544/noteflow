@@ -37,8 +37,8 @@ A modern **full-stack note-taking application** built with **MERN** (MongoDB, Ex
 
 ## **Folder Structure**
 
+```
 webapp/
-│
 ├── backend/
 │   ├── src/
 │   │   ├── controllers/        # Functions handling API logic
@@ -52,7 +52,6 @@ webapp/
 │   ├── package-lock.json
 │   ├── .env                    # Environment variables (ignored)
 │   └── .gitignore              # Backend-specific ignores
-│
 │
 ├── frontend/
 │   ├── public/                 # Static assets (index.html etc.)
@@ -70,6 +69,7 @@ webapp/
 │   └── .gitignore              # Frontend-specific ignores
 │
 └── README.md                   # Project documentation
+```
 
 ---
 
