@@ -60,10 +60,12 @@ webapp/
 ### **1. Clone the repository**
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
+git clone https://github.com/Eva544/NoteFlow.git
 cd webapp
 
-2. Setup Backend
+---
+
+### **2. Setup Backend**
 
 cd backend
 npm install
