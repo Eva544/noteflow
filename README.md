@@ -7,8 +7,7 @@ A modern **full-stack note-taking application** built with **MERN** (MongoDB, Ex
 ## **Table of Contents**
 
 - [Features](#features)  
-- [Tech Stack](#tech-stack)  
-- [Folder Structure](#folder-structure)  
+- [Tech Stack](#tech-stack)   
 - [Setup & Installation](#setup--installation)
 - [Usage](#usage) 
 
@@ -32,26 +31,6 @@ A modern **full-stack note-taking application** built with **MERN** (MongoDB, Ex
 - **Authentication:** JWT + Cookies  
 - **State Management:** React Hooks (`useState`, `useEffect`)  
 - **Notifications:** React-Toastify  
-
----
-
-## **Folder Structure**
-
-webapp/
-├─ backend/ # Node.js & Express API
-│ ├─ server.js # Main backend entry
-│ ├─ routes/ # API routes
-│ ├─ controllers/
-│ ├─ models/
-│ └─ package.json
-│
-├─ frontend/ # React frontend
-│ ├─ src/
-│ ├─ public/
-│ └─ package.json
-│
-└─ README.md # Project documentation
-
 
 ---
 
@@ -79,35 +58,50 @@ npm install
 ```bash
 PORT=8000
 MONGO_URL=<your-mongodb-connection-string>
-JWT_SECRET=<your-secret-key>
+TOKEN_kEY=<your-secret-key>
 ```
 
-- Start backend server:
-  ```bash
-npm run dev
-```
-
-### **3. Setup Frontend**
-
+- Start Backend Server
 ```bash
-cd frontend
-npm install
-npm start
+npm run dev
 ```
 
 ---
 
-Usage
+### **3. Setup Frontend**
 
-Register a new user account.
+```bash
+cd ../frontend
+npm install
+npm start
+```
+---
 
-Login using your credentials.
+## **Running the Project**
 
-Create, edit, delete notes.
+## **Terminal 1: Start Backend**
 
-Use search/filter by title.
+```bash
+cd backend
+npm run dev
+```
 
-Edit your profile in the modal dialog.
+## **Terminal 2: Start Frontend**
+
+```bash
+cd frontend
+npm start
+```
+---
+
+### **Usage**
+
+- Register a new user account.
+- Login using your credentials.
+- Create, edit, delete notes.
+- Search and filter notes.
+- Edit your profile.
+- Logout Securely
 
 
 
